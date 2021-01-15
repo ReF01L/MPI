@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ref0il/CLionProjects/MPI/Floyd.cpp
+Floyd.h
+/home/ref0il/CLionProjects/MPI/Floyd.h
+algorithm
+-
+mpi.h
+-
+
+/home/ref0il/CLionProjects/MPI/Floyd.h
+
+/home/ref0il/CLionProjects/MPI/Matrix.h
+
+/home/ref0il/CLionProjects/MPI/main.cpp
+Matrix.h
+/home/ref0il/CLionProjects/MPI/Matrix.h
+Floyd.h
+/home/ref0il/CLionProjects/MPI/Floyd.h
+
+/usr/include/x86_64-linux-gnu/mpi/mpi.h
+stddef.h
+-
+cstdint
+-
+stdint.h
+-
+mpio.h
+/usr/include/x86_64-linux-gnu/mpi/mpio.h
+mpicxx.h
+/usr/include/x86_64-linux-gnu/mpi/mpicxx.h
+
+/usr/include/x86_64-linux-gnu/mpi/mpicxx.h
+stdio.h
+-
+
+/usr/include/x86_64-linux-gnu/mpi/mpio.h
+mpi.h
+/usr/include/x86_64-linux-gnu/mpi/mpi.h
+

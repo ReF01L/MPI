@@ -1,1 +1,1 @@
-/usr/bin/mpic++  -g   CMakeFiles/MPI.dir/main.cpp.o  -o MPI 
+/usr/bin/mpic++  -g   CMakeFiles/MPI.dir/main.cpp.o CMakeFiles/MPI.dir/Matrix.cpp.o CMakeFiles/MPI.dir/Floyd.cpp.o CMakeFiles/MPI.dir/Merge.cpp.o  -o MPI 

@@ -143,6 +143,87 @@ MPI/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPI.dir/build.make CMakeFiles/MPI.dir/build
 .PHONY : MPI/fast
 
+Floyd.o: Floyd.cpp.o
+
+.PHONY : Floyd.o
+
+# target to build an object file
+Floyd.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPI.dir/build.make CMakeFiles/MPI.dir/Floyd.cpp.o
+.PHONY : Floyd.cpp.o
+
+Floyd.i: Floyd.cpp.i
+
+.PHONY : Floyd.i
+
+# target to preprocess a source file
+Floyd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPI.dir/build.make CMakeFiles/MPI.dir/Floyd.cpp.i
+.PHONY : Floyd.cpp.i
+
+Floyd.s: Floyd.cpp.s
+
+.PHONY : Floyd.s
+
+# target to generate assembly for a file
+Floyd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPI.dir/build.make CMakeFiles/MPI.dir/Floyd.cpp.s
+.PHONY : Floyd.cpp.s
+
+Matrix.o: Matrix.cpp.o
+
+.PHONY : Matrix.o
+
+# target to build an object file
+Matrix.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPI.dir/build.make CMakeFiles/MPI.dir/Matrix.cpp.o
+.PHONY : Matrix.cpp.o
+
+Matrix.i: Matrix.cpp.i
+
+.PHONY : Matrix.i
+
+# target to preprocess a source file
+Matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPI.dir/build.make CMakeFiles/MPI.dir/Matrix.cpp.i
+.PHONY : Matrix.cpp.i
+
+Matrix.s: Matrix.cpp.s
+
+.PHONY : Matrix.s
+
+# target to generate assembly for a file
+Matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPI.dir/build.make CMakeFiles/MPI.dir/Matrix.cpp.s
+.PHONY : Matrix.cpp.s
+
+Merge.o: Merge.cpp.o
+
+.PHONY : Merge.o
+
+# target to build an object file
+Merge.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPI.dir/build.make CMakeFiles/MPI.dir/Merge.cpp.o
+.PHONY : Merge.cpp.o
+
+Merge.i: Merge.cpp.i
+
+.PHONY : Merge.i
+
+# target to preprocess a source file
+Merge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPI.dir/build.make CMakeFiles/MPI.dir/Merge.cpp.i
+.PHONY : Merge.cpp.i
+
+Merge.s: Merge.cpp.s
+
+.PHONY : Merge.s
+
+# target to generate assembly for a file
+Merge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MPI.dir/build.make CMakeFiles/MPI.dir/Merge.cpp.s
+.PHONY : Merge.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +260,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MPI"
+	@echo "... Floyd.o"
+	@echo "... Floyd.i"
+	@echo "... Floyd.s"
+	@echo "... Matrix.o"
+	@echo "... Matrix.i"
+	@echo "... Matrix.s"
+	@echo "... Merge.o"
+	@echo "... Merge.i"
+	@echo "... Merge.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

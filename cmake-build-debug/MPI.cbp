@@ -84,6 +84,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/ref0il/CLionProjects/MPI/Floyd.cpp">
+			<Option target="MPI"/>
+		</Unit>
+		<Unit filename="/home/ref0il/CLionProjects/MPI/Floyd.h">
+			<Option target="MPI"/>
+		</Unit>
+		<Unit filename="/home/ref0il/CLionProjects/MPI/Matrix.cpp">
+			<Option target="MPI"/>
+		</Unit>
+		<Unit filename="/home/ref0il/CLionProjects/MPI/Matrix.h">
+			<Option target="MPI"/>
+		</Unit>
+		<Unit filename="/home/ref0il/CLionProjects/MPI/Merge.cpp">
+			<Option target="MPI"/>
+		</Unit>
+		<Unit filename="/home/ref0il/CLionProjects/MPI/Merge.h">
+			<Option target="MPI"/>
+		</Unit>
 		<Unit filename="/home/ref0il/CLionProjects/MPI/main.cpp">
 			<Option target="MPI"/>
 		</Unit>
