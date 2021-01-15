@@ -1,0 +1,4 @@
+/home/ref0il/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.6682.181/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ref0il/CLionProjects/MPI
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ref0il/CLionProjects/MPI/cmake-build-debug
